@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Electriity Bill</title>
+        <link rel="stylesheet" href="bill.css">
+    </head>
+    <body bgcolor="yellow">
+        <h1><font face="algerian" color="blue"><center>ELECTRICITY BILL PAY</center></font></h1>
+        <hr color="black">
+        <br>
+        <div class="form">
+            <p class="ins1">Please pay your bill according to the number of units used:</p>
+            <br>
+            <center>
+            <p class="ins2">Enter the following details: </p>
+            <div class="detail"><span class="insn">Name: </span> <input type="text" class="name" id="user" placeholder="Enter Name"></div>
+            <br>
+            <div class="detail"><span class="insn">Units Consumed: </span> <input type="text" class="units" id="units" placeholder="Number of Units"></div>
+            <br>
+            <button class="sub" id="sub">SUBMIT</button>
+            </center>
+        </div>
+        <div class="print">
+            <div class="detailp"><span class="insn2">Name : <p class="printing" id="namep"></p></span></div>
+            <div class="detailp"><span class="insn2">Units: <p class="printing" id="unitp"></p></span></div>   
+            <div class="detailp"><span class="insn2"> Bill: <p class="printing" id="billp"></p></span></div>         
+        </div>
+        <script src="bill.js"></script>
+    </body>
+</html>
